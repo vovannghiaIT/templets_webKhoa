@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="/img/logo.jpg" />
+
+        <link rel="stylesheet" href="style.css" />
+    <title>Khoa CNTT - Trường Cao Đẳng Công Thương TP.HCM</title>
+  </head>
+  <body>
+    <div class="container-xxl mt-1 px-3">
+      <button type="button " class=" position__fixed "><a href="#hder"> <i class="fa-solid fa-chevron-up"></i></a></button>
+      <div class="header" id="hder">
+        <div class="row px-2">
+          <div class="col-lg-8 col-md-12 my-2 img__logo">
+            <img src="./img/logoCNTT.png" alt="" />
+          </div>
+          <div class="col-ms-1 col-lg-2"></div>
+          <div class="col-lg-4 col-md-12 text-right">
+            <form action="">
+              <div class="input-group my-4">
+                <input
+                  type="text"
+                  class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                  placeholder="Từ khóa tìm kiếm"
+                  aria-describedby="basic-addon2"
+                />
+                <span
+                  class="input-group-text border-0 bg-transparent search__icon"
+                  ><i class="fa-solid fa-magnifying-glass text-primary"></i
+                ></span>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="nav mt-2 container-xxl bg-primary">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 w-100 ps-4 fs-6">
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white text-uppercase"
+                      aria-current="page"
+                      href="#"
+                      >Trang chủ</a
+                    >
+                  </li>
+
+                  <li class="nav-item dropdown px-2">
+                    <a
+                      class="nav-link dropdown-toggle text-white text-uppercase"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Giới thiệu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown px-2">
+                    <a
+                      class="nav-link dropdown-toggle text-white text-uppercase"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Đào tạo
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white text-uppercase"
+                      aria-current="page"
+                      href="#"
+                      >Tin Tức</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown px-2">
+                    <a
+                      class="nav-link dropdown-toggle text-white text-uppercase"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Sinh viên
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-capitalize" href="#"
+                          >Giới thiệu chung</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white text-uppercase"
+                      aria-current="page"
+                      href="#"
+                      >Điểm thi</a
+                    >
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white text-uppercase"
+                      aria-current="page"
+                      href="#"
+                      >Tuyển dụng</a
+                    >
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white text-uppercase"
+                      aria-current="page"
+                      href="#"
+                      >Đoàn thanh niên</a
+                    >
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white text-uppercase"
+                      aria-current="page"
+                      href="#"
+                      >Liên hệ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div>
+        <div class="container-xxl">
+          <div class="row mt-3">
+            <div class="col-md-9">
+              <div class="slider">
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./img/banner-tuyensinh-2022.png"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./img/slider_cosovatchat.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./img/slider_vitrivieclam.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="text__new mt-4">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                      Tin tức
+                    </span>
+                    <strong class="ms__new"> </strong>
+                  </h5>
+                </div>
+                <div class="new__context mt-2">
+                  <div class="row p-0">
+                    <div class="col-md-6">
+                      <div class="context__news">
+                        <img src="./img/tbxettn-768x512.jpg" alt="" />
+                      </div>
+                      <div class="row mt-2">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-3  mb-2">
+                          <div
+                            class="new__month bg-primary text-center text-white p-2"
+                          >
+                            <span class="fw-bold fs-5">09</span>
+                            <br />
+                            <span>T11</span>
+                          </div>
+                        </div>
+                        <div class="col-md-9 col-lg-10 col-sm-8 col-xs-9   text-uppercase mt-2 ">
+                          Lorem ipsum dolor sit amet.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ">
+                      <div class="row mb-2 news__par">
+                        <div class="col-lg-4 col-md-5 ">
+                          <img
+                            src="./img/news_1.jpg"
+                            alt=""
+                            class="news__img img-fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 news__par">
+                        <div class="col-lg-4 col-md-5 ">
+                          <img
+                            src="./img/news_1.jpg"
+                            alt=""
+                            class="news__img img-fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 news__par">
+                        <div class="col-lg-4 col-md-5 ">
+                          <img
+                            src="./img/news_1.jpg"
+                            alt=""
+                            class="news__img img-fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 news__par">
+                        <div class="col-lg-4 col-md-5 ">
+                          <img
+                            src="./img/news_1.jpg"
+                            alt=""
+                            class="news__img img-fluid"
+                          />
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tuyensinh__benner mt-3">
+                <img src="./img/TuyenSinh2022_banner.png" alt="">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class=" mt-3 position-relative">
+                    <span class=" position__absolute">Đồ Án - TTTN </span>
+                    <img src="./img/Bg410_100_1.png" alt="">
+                  </div>
+                  <div class="row menu__left">
+                    <div class="col-md-12">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        
+
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row mt-1 all__text">
+                    <div class="col-md-12 text-end">Xem tất cả</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class=" mt-3 position-relative">
+                    <span class=" position__absolute">Điểm thi </span>
+                    <img src="./img/Bg410_100_2.png" alt="">
+                  </div>
+                  <div class="row menu__left">
+                    <div class="col-md-12">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                        <li class="list-group-item p-1"><i class="fa-solid fa-chevron-right me-2"></i>An item</li>
+                       
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row mt-1 all__text">
+                    <div class="col-md-12 text-end">Xem tất cả</div>
+                  </div>
+                </div>
+              </div>
+              <div class="text__new mt-4">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                      Hoạt động đoàn
+                    </span>
+                    <strong class="ms__hoat"> </strong>
+                  </h5>
+                </div>
+                <div class="new__context mt-2">
+                  <div class="row p-0">
+                    <div class="col-md-6">
+                      <div class="context__news">
+                        <img src="./img/ADSC02885-768x413.jpg" alt="" />
+                      </div>
+                      <div class="row mt-2 mb-2">
+                        <div class="col-lg-2 col-md-3 col-xs-3">
+                          <div
+                            class="new__month bg-primary text-center text-white p-2 "
+                          >
+                            <span class="fw-bold fs-5">14</span>
+                            <br />
+                            <span>T10</span>
+                          </div>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-xs-9 text-uppercase mt-2">
+                          Lorem ipsum dolor sit amet.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="row mb-2 news__par">
+                        <div class="col-md-4">
+                          <img
+                            src="./img/doan-thanh-nien.png"
+                            alt=""
+                            class="news__img"
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 news__par">
+                        <div class="col-md-4">
+                          <img
+                          src="./img/doan-thanh-nien.png"
+                            alt=""
+                            class="news__img"
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 news__par">
+                        <div class="col-md-4">
+                          <img
+                          src="./img/doan-thanh-nien.png"
+                            alt=""
+                            class="news__img"
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2 news__par">
+                        <div class="col-md-4">
+                          <img
+                          src="./img/doan-thanh-nien.png"
+                            alt=""
+                            class="news__img"
+                          />
+                        </div>
+                        <div class="col-md-8">
+                          <h3 class="news__title">
+                            Lorem ipsum dolor sit amet, conser adipisicing elit.
+                          </h3>
+                          <div class="news__icon">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>05.11.2022</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tuyendung__news mt-2">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                     Tuyển dụng
+                    </span>
+                    <strong class="ms__td"> </strong>
+                  </h5>
+                  <div class="row mt-2">
+                    <div class="col-md-3 item__tuyen ">
+                      <img src="./img/thumbnail_tuyendung.png" alt="">
+                      <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                    <div class="col-md-3 item__tuyen  ">
+                      <img src="./img/fsoft-300x200.jpg" alt="">
+                      <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                    <div class="col-md-3 item__tuyen ">
+                      <img src="./img/tuyendung-300x225.jpg" alt="">
+                      <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                    <div class="col-md-3 item__tuyen ">
+                      <img src="./img/154959490_878055619407243_8863714729194200981_n-300x225.jpg" alt="">
+                      <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+             
+            </div>
+            <div class="col-md-3">
+              <div class="title">
+                <h5>
+                  <span class="text-white fs-6 text-uppercase mb-0">
+                    Bài viết mới
+                  </span>
+                  <strong> </strong>
+                </h5>
+              </div>
+              <div class="post__context">
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="post__item my-2">
+                  <div class="row">
+                    <div class="col-sm-5  col-lg-3 h-100 col-xs-3 lh-lg" >
+                      <div class="text-center day__post">
+                        <span>05</span>
+                        <img src="./img/new.gif" alt="" />
+                      </div>
+                      <div class="text-center month__post ">11/2022</div>
+                    </div>
+                    <div class="col-sm-7 col-lg-9 px-sm-2 px-xs-3 col-xs-9 px-lg-2">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> 
+                    </div>
+                  </div>
+                </div>
+               
+                
+              </div>
+              <div class="title mt-1">
+                <h5>
+                  <span class="text-white fs-6 text-uppercase mb-0">
+                    Chuyên mục
+                  </span>
+                  <strong class="ms__chuyenmuc"> </strong>
+                </h5>
+              </div>
+              <div class="menu__right">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                  <li class="list-group-item">A fourth item</li>
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                  <li class="list-group-item">A fourth item</li>
+                  <li class="list-group-item">A fourth item</li>
+                  <li class="list-group-item">And a fifth one</li>
+                </ul>
+              </div>
+              <div class="QC mt-2">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                     Quảng cáo
+                    </span>
+                    <strong class="ms__QC"> </strong>
+                  </h5>
+                </div>
+                <div class="QC__img">
+                  <img src="./img/Trongvien1.gif" alt="">
+                </div>
+              </div>
+              <div class="video__post mt-2">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                     Video
+                    </span>
+                    <strong class="ms__video"> </strong>
+                  </h5>
+                </div>
+              
+
+              </div>
+              <div class="video__list">
+                <div class="video-container">
+                  <iframe width="286" height="161" src="https://www.youtube.com/embed/AhFDhH2-2Bk" title="Cùng nhau khám phá ngôi Trường Cao Đẳng Công Thương năm 2020 nào các bạn!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               
+                </div>
+              </div>
+              <div class="facebook mt-3">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                     facebook
+                    </span>
+                    <strong class="ms__fb"> </strong>
+                  </h5>
+                </div>
+                <div class="post__333">
+
+                  <p class="mt-2 facebook__post">Khoa CNTT - Trường CĐ Công Thương TP.HCM</p>
+                </div>
+              </div>
+              <div class="lienket mt-3">
+                <div class="title">
+                  <h5>
+                    <span class="text-white fs-6 text-uppercase mb-0">
+                      Liên kết
+                    </span>
+                    <strong class="ms__lk"> </strong>
+                  </h5>
+                </div>
+                  <div class="lienket__img">
+                    <img src="./img/dkmh.gif" alt="">
+                  </div>
+                  <div class="nophoso">
+                    <img src="./img/tuyensinh2022.gif" alt="">
+                  </div>
+              </div>
+
+            </div>
+            <div class="row">
+            <div class="sv__tieubieu mt-3">
+              <h5 class="text-white bg-primary text-center pt-2 pb-3">Sinh viên tiêu biểu</h5>
+           </div>
+           <div class="from__list">
+            <div class="post__sinhvien mt-3">
+             
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+               
+                  <p class="text-center w-100">Khóa học 2016-2019</p>
+                
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+              <div class="item__sv ">
+                <div class="item__img">
+                  <div class="thumbal__sv">
+  
+                    <img src="./img/HaTrungHieu.jpg" alt="">
+                  </div>
+                </div>
+                <h6 class="mt-3 text-center">Hà Trang Hiếu</h6>
+                <p class="text-center w-100">Khóa học 2016-2019</p>
+              </div>
+             
+             
+              
+            </div>
+          
+           </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer mt-3 bg-primary text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer__left">
+              <h3 class="text-uppercase">khoa công nghệ thông tin<br> trường cao đẳng công thương thành phố Hồ Chí Minh</h3>
+              <p class="mb-0">Địa chỉ: Số 20 Tăng Nhơn Phú, P. Phước Long B, Quận 9, TP.HCM</p>
+              <p class="mb-0">Điện thoại: 028.37313631</p>
+              <p class="mb-0">Fax: 028.38978501</p>
+              <p class="mb-0">Facebook: <a class="text-white" href="https://facebook.com/groups/fithitu">https://facebook.com/groups/fithitu</a></p>
+            </div>
+          </div>
+          <div class="col-md-6  text-end mt-2">
+            <p class="mb-0 d-block "><span class="bg-dark letter">094852</span></p>
+            <p class="mb-0"><i class="fa-solid fa-user pe-2"></i>Hôm nay: 112</p>
+            <p class="mb-0"><i class="fa-solid fa-user pe-2"></i>Tổng lượt: 20299</p>
+            <p class="mb-0"><i class="fa-solid fa-user pe-2"></i>Người online: 11</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  
+  </body>
+</html>
